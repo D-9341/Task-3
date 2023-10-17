@@ -10,4 +10,4 @@ const calculateRectangleProperties = (width, heigth) => {
     return console.log(`Периметр введённого прямоугольника: ${P}\nПлощадь введённого прямоугольника: ${S}`);
 }
 
-calculateRectangleProperties()
+calculateRectangleProperties();

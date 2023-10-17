@@ -9,7 +9,7 @@ const calculateDistance = (x1, y1, x2, y2) => {
     x2 = Number(x2);
     y2 = readlineSync.question('Введите координату y второй точки: ');
     y2 = Number(y2);
-    return console.log(`Расстояние между двумя точками: ${(x1 + y1) - (x2 + y2)}`)
+    return console.log(`Расстояние между двумя точками: ${(x1 + y1) - (x2 + y2)}`);
 }
 
 calculateDistance();

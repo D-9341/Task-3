@@ -6,4 +6,4 @@ const calculateDiscount = (price, discountPercentage) => {
     return console.log(`Сумма с учётом скидки: ${price * (discountPercentage / 100)}`);
 }
 
-calculateDiscount()
+calculateDiscount();

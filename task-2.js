@@ -6,4 +6,4 @@ const celsiusToFahrenheit = (celsius) => {
     return console.log(`Введённая температура по цельсию: ${celsius}\nКонвертированная температура по фаренгейту: ${fahrenheit}`);
 }
 
-celsiusToFahrenheit()
+celsiusToFahrenheit();

@@ -6,4 +6,4 @@ const incomeTaxCalculator = (income) => {
     return console.log(`Налог на доход равен ${tax}`);
 }
 
-incomeTaxCalculator()
+incomeTaxCalculator();
