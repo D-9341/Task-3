@@ -9,7 +9,7 @@ const calculateEmployeeBonus = (salary, performanceRating) => {
         bonus = 1.1;
     }
     total = salary * bonus;
-    return console.log(`Зарплата сотрудника: ${salary}\nРейтинг сотрудника: ${performanceRating}\nКоэффициент зарплаты: ${bonus}\nИтоговая зарплата: ${Math.round(total)}`)
+    return console.log(`Зарплата сотрудника: ${salary}\nРейтинг сотрудника: ${performanceRating}\nКоэффициент зарплаты: ${bonus}\nИтоговая зарплата: ${Math.round(total)}`);
 }
 
 calculateEmployeeBonus();
